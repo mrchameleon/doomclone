@@ -14,7 +14,7 @@ mini_map = [
     [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
 ]
 
-class Map():
+class Map:
     def __init__(self, game):
         self.game = game
         self.mini_map = mini_map
@@ -28,5 +28,5 @@ class Map():
                     self.world_map[(i, j)] = value
     
     def draw(self):
-        [pg.draw.rect(self.game.screen, 'darkgray', (pos[0] * 100, pos[1] * 100, 100, 100), 2)
+        [pg.draw.rect(self.game.screen, 'green', (pos[0] * 100, pos[1] * 100, 100, 100), 2)
          for pos in self.world_map]
