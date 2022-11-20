@@ -1,0 +1,7 @@
+RES = WIDTH, HEIGHT = 1600, 900
+FPS = 60
+
+PLAYER_POS = 1.5, 5  # position of player on the map
+PLAYER_ANGLE = 0
+PLAYER_SPEED = 0.04
+PLAYER_ROT_SPEED = 0.04
